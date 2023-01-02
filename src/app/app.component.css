@@ -1,0 +1,14 @@
+*{
+    background-color: rgb(170, 170, 244);
+    color: rgb(90, 82, 82);
+}
+
+main{
+    padding: 30px 20px 50px ;
+}
+.col-md-11{
+    justify-content: space-between;
+}
+.all-cars{
+    text-align: center;
+}

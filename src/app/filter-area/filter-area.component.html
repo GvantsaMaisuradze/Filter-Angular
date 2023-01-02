@@ -1,0 +1,50 @@
+<article>
+    <h3>Filter Cars</h3>
+    <div class="form-group">
+        <label for="">Enter Car's manufacturer</label>
+        <input (input)="onFilterInpValueChange()" 
+        [(ngModel)]="filter.manufacturer" type="text" class="form-control" placeholder="Enter here">
+    </div>
+    <div class="form-group">
+        <label for="">Enter Car's Model</label>
+        <input (input)="onFilterInpValueChange()" 
+        [(ngModel)]="filter.model" type="text" class="form-control" placeholder="Enter here">
+    </div>
+    <div class="form-group">
+        <label for="">Enter Car's vinCode</label>
+        <input (input)="onFilterInpValueChange()" 
+        [(ngModel)]="filter.vinCode" type="text" class="form-control" placeholder="Enter here">
+    </div>
+    <div class="joined-form-group">
+        <div class="form-group">
+            <label for="">Enter Car's Year From</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.yearFrom" type="text" class="form-control" placeholder="Enter here">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Car's Year To</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.yearTo" type="text" class="form-control" placeholder="Enter here">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Car's Price From</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.priceFrom" type="text" class="form-control" placeholder="Enter here">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Car's Price To</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.priceTo" type="text" class="form-control" placeholder="Enter here">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Car's Mile From</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.mileFrom" type="number" class="form-control" placeholder="Enter here">
+        </div>
+        <div class="form-group">
+            <label for="">Enter Car's Mile To</label>
+            <input (input)="onFilterInpValueChange()" 
+            [(ngModel)]="filter.mileTo" type="number" class="form-control" placeholder="Enter here">
+        </div>
+    </div>
+</article>
